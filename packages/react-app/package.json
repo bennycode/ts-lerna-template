@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/preset-react": "7.12.1",
+    "babel-loader": "8.1.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.0.0",
+    "webpack-dev-server": "3.11.0"
+  },
+  "files": [
+    "src",
+    "!src/**/!(*.d).ts"
+  ],
+  "main": "src/index",
+  "name": "@tstv/react-app",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "webpack",
+    "dist": "yarn clean && yarn build",
+    "start": "webpack serve --mode development",
+    "test": "exit 0"
+  },
+  "version": "0.0.0"
+}
