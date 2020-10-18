@@ -1,0 +1,18 @@
+{
+  "files": [
+    "src",
+    "!src/**/!(*.d).ts"
+  ],
+  "main": "src/index",
+  "name": "@tstv/foo",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
+    "build": "tsc -p tsconfig.build.json",
+    "dist": "yarn clean && yarn build",
+    "start": "ts-node src/index.ts"
+  },
+  "version": "0.0.0"
+}
