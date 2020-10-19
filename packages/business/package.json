@@ -1,10 +1,14 @@
 {
+  "dependencies": {
+    "@tstv/api": "0.0.0"
+  },
   "files": [
     "src",
     "!src/**/!(*.d).ts"
   ],
+  "license": "MIT",
   "main": "src/index",
-  "name": "@tstv/foo",
+  "name": "@tstv/business",
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +16,7 @@
     "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
     "build": "tsc -p tsconfig.build.json",
     "dist": "yarn clean && yarn build",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/start.ts"
   },
   "version": "0.0.0"
 }

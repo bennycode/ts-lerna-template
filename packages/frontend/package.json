@@ -15,8 +15,9 @@
     "src",
     "!src/**/!(*.d).ts"
   ],
+  "license": "MIT",
   "main": "src/index",
-  "name": "@tstv/react-app",
+  "name": "@tstv/frontend",
   "private": true,
   "scripts": {
     "clean": "rimraf dist",
