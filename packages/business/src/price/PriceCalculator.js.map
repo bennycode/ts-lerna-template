@@ -1,1 +1,0 @@
-{"version":3,"file":"PriceCalculator.js","sourceRoot":"","sources":["PriceCalculator.ts"],"names":[],"mappings":";;;AAAA,mCAAqC;AAErC,MAAM,eAAe;IACnB,MAAM,CAAC,QAAQ,CAAC,KAAa;QAC3B,MAAM,QAAQ,GAAG,KAAK,GAAG,gBAAU,CAAC,eAAe,EAAE,CAAC;QACtD,OAAO,KAAK,GAAG,QAAQ,CAAC;IAC1B,CAAC;IAAA,CAAC;CACH;AAEO,0CAAe"}

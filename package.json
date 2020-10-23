@@ -10,7 +10,7 @@
   "scripts": {
     "boot": "lerna bootstrap --reject-cycles",
     "dist": "lerna run dist",
-    "clean": "lerna run clean",
+    "clean": "lerna run clean --parallel",
     "release": "yarn install && yarn dist && lerna publish && yarn clean"
   },
   "workspaces": {
