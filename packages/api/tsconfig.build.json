@@ -3,7 +3,5 @@
   "compilerOptions": {
     "outDir": "src"
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

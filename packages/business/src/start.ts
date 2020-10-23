@@ -3,7 +3,7 @@ import { PriceCalculator } from "@tstv/business";
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 rl.question("What is the price? ", (price: string) => {

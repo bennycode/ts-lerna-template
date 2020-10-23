@@ -3,9 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@tstv/*": [
-        "packages/*/src"
-      ]
+      "@tstv/*": ["packages/*/src"]
     }
   }
 }

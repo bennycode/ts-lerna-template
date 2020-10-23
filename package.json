@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "lerna": "3.22.1",
+    "prettier": "2.1.2",
     "rimraf": "3.0.2",
     "ts-node": "9.0.0",
     "typescript": "4.0.3"
@@ -9,9 +10,10 @@
   "private": true,
   "scripts": {
     "boot": "lerna bootstrap --reject-cycles",
-    "dist": "lerna run dist",
     "clean": "lerna run clean --parallel",
-    "release": "yarn install && yarn dist && lerna publish && yarn clean"
+    "dist": "lerna run dist",
+    "release": "yarn install && yarn dist && lerna publish && yarn clean",
+    "style": "prettier --ignore-path .gitignore \"**/*.{md,json,html,ts}\" --write"
   },
   "workspaces": {
     "packages": [
