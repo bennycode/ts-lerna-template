@@ -1,17 +1,25 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { PriceCalculator } from "@tstv/business";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {PriceCalculator} from '@tstv/business';
 
-const DivWrapper = (props: React.HTMLProps<HTMLDivElement>) => (
+// https://typescript.tv/react/use-react-with-typescript/
+
+interface DivWrapperProps extends React.HTMLProps<HTMLDivElement> {
+}
+
+const DivWrapper: React.FC<DivWrapperProps> = (props) => (
   <div {...props} />
 );
 
-const App = () => (
+interface AppProps {
+}
+
+const App: React.FC<AppProps> = () => (
   <>
     <h1>Hello, {PriceCalculator.getTotal(100)}!</h1>
-    <DivWrapper children={<span>Hello, World!</span>} />
+    <DivWrapper children={<span>Hello, World!</span>}/>
   </>
 );
-const rootNode = document.getElementById("root");
+const rootNode = document.getElementById('root');
 
-ReactDOM.render(<App />, rootNode);
+ReactDOM.render(<App/>, rootNode);

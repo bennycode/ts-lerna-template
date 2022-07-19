@@ -27,7 +27,8 @@
     "build": "webpack",
     "dist": "yarn clean && yarn build",
     "start": "webpack serve --mode development",
-    "test": "exit 0"
+    "test": "yarn test:types",
+    "test:types": "tsc --noEmit"
   },
   "version": "0.0.0"
 }

@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("What is the price? ", (price: string) => {
+rl.question("What is the price? ", (price: string): void => {
   const total = PriceCalculator.getTotal(parseInt(price, 10));
   console.log(`Total including interest rate is "${total}".`);
   rl.close();

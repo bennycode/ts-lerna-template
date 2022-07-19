@@ -10,9 +10,11 @@
     "access": "public"
   },
   "scripts": {
-    "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
     "build": "tsc -p tsconfig.build.json",
-    "dist": "yarn clean && yarn build"
+    "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
+    "dist": "yarn clean && yarn build",
+    "test": "yarn test:types",
+    "test:types": "tsc --noEmit"
   },
   "version": "0.0.0"
 }

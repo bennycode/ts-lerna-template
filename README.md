@@ -29,4 +29,5 @@ yarn release
 
 ## Read more
 
-- [How to set up a TypeScript monorepo with Lerna](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559)
+- [How to set up a TypeScript monorepo with Lerna](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559) ([Example repo](https://github.com/NiGhTTraX/ts-monorepo))
+- [Nrwl takes over Lerna](https://blog.nrwl.io/lerna-used-to-walk-now-it-can-fly-eab7a0fe7700)
