@@ -9,7 +9,6 @@
   "exact": true,
   "loglevel": "verbose",
   "registry": "https://registry.npmjs.org/",
-  "useWorkspaces": true,
   "version": "independent",
   "yes": true
 }

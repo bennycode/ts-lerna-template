@@ -12,7 +12,7 @@ npm install
 npm run boot
 
 # Test packages
-npm run test:all
+npm run test
 ```
 
 ## Release packages
