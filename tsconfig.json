@@ -1,9 +1,11 @@
 {
-  "extends": "./tsconfig.build.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@tstv/*": ["packages/*/src"]
+      "@tstv/*": [
+        "packages/*/src"
+      ]
     }
-  }
+  },
+  "extends": "./tsconfig.build.json"
 }

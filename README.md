@@ -6,13 +6,13 @@ A template for managing TypeScript packages with Lerna.
 
 ```bash
 # Install dependencies
-yarn install
+npm install
 
 # Link packages
-yarn boot
+npm run boot
 
 # Test packages
-yarn test:all
+npm run test
 ```
 
 ## Release packages
@@ -24,7 +24,7 @@ Start with version "0.0.0" in `package.json` when creating a completely new pack
 Publish all packages that have changed:
 
 ```bash
-yarn release
+npm run release
 ```
 
 ## Read more

@@ -1,0 +1,9 @@
+# https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+pre-commit:
+  parallel: false
+  commands:
+    1_prettier:
+      run: npx pretty-quick --staged --ignore-path .gitignore
+    2_eslint:
+      glob: '*.{js,jsx,ts,tsx}'
+      run: npx eslint {staged_files} --fix
