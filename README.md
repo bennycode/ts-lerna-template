@@ -5,14 +5,11 @@ A template for managing TypeScript packages with Lerna.
 ## Getting started
 
 ```bash
-# Install dependencies
+# Install dependencies (the Monorepo linking step is now handled during npm install)
 npm install
 
-# Link packages
-npm run boot
-
 # Test packages
-npm run test
+npm test
 ```
 
 ## Release packages

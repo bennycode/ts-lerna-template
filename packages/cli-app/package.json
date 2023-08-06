@@ -1,14 +1,11 @@
 {
-  "dependencies": {
-    "@tstv/api": "0.0.0"
-  },
   "files": [
     "src",
     "!src/**/!(*.d).ts"
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "name": "@tstv/business",
+  "name": "@tstv/cli-app",
   "publishConfig": {
     "access": "public"
   },
@@ -16,7 +13,7 @@
     "build": "tsc",
     "clean": "rimraf --glob src/**/*{.js,.js.map,.d.ts}",
     "dist": "npm run clean && npm run build",
-    "start": "ts-node src/start.ts",
+    "start": "ts-node-esm src/start.ts",
     "test": "npm run test:types",
     "test:types": "tsc --noEmit"
   },

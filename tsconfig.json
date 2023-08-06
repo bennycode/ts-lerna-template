@@ -7,5 +7,5 @@
       ]
     }
   },
-  "extends": "./tsconfig.build.json"
+  "extends": "@tstv/tsconfig-common/tsconfig.json"
 }

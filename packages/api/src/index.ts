@@ -1,1 +1,1 @@
-export * from "./finance";
+export * from "./finance/index.js";
