@@ -2,9 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@tstv/*": [
-        "packages/*/src"
-      ]
+      "@tstv/*": ["packages/*/src"]
     }
   },
   "extends": "@tstv/tsconfig-common/tsconfig.json"

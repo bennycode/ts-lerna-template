@@ -1,4 +1,4 @@
-import {FinanceAPI} from '@tstv/api';
+import { FinanceAPI } from "@tstv/api";
 
 class PriceCalculator {
   static getTotal(price: number): number {
@@ -7,4 +7,4 @@ class PriceCalculator {
   }
 }
 
-export {PriceCalculator};
+export { PriceCalculator };

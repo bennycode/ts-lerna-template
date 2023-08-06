@@ -3,8 +3,8 @@ pre-commit:
   parallel: true
   commands:
     format:
-      glob: '*.{css,html,json,less,md,scss,yml}'
+      glob: "*.{css,html,json,less,md,scss,yml}"
       run: npx prettier --write --log-level error {staged_files}
     lint:
-      glob: '*.{js,jsx,ts,tsx}'
+      glob: "*.{js,jsx,ts,tsx}"
       run: npx eslint {staged_files} --fix
