@@ -1,1 +1,1 @@
-export * from "./PriceCalculator";
+export * from "./PriceCalculator.js";

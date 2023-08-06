@@ -4,17 +4,18 @@
     "!src/**/!(*.d).ts"
   ],
   "license": "MIT",
-  "main": "src/index",
+  "main": "src/index.js",
   "name": "@tstv/api",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
-    "dist": "yarn clean && yarn build",
-    "test": "yarn test:types",
+    "build": "tsc",
+    "clean": "rimraf --glob src/**/*{.js,.js.map,.d.ts}",
+    "dist": "npm run clean && npm run build",
+    "test": "npm run test:types",
     "test:types": "tsc --noEmit"
   },
+  "type": "module",
   "version": "0.0.0"
 }
