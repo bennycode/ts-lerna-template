@@ -16,7 +16,7 @@
     "build": "tsc",
     "clean": "rimraf --glob src/**/*{.js,.js.map,.d.ts}",
     "dist": "npm run clean && npm run build",
-    "start": "ts-node src/start.ts",
+    "start": "npm run test:types && node --no-warnings=ExperimentalWarning --loader ts-node/esm src/start.ts",
     "test": "npm run test:types",
     "test:types": "tsc --noEmit"
   },

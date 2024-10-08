@@ -7,7 +7,11 @@ const rl = readline.createInterface({
 });
 
 rl.question("What is the price? ", (price: string): void => {
-  const total = PriceCalculator.getTotal(parseInt(price, 10));
+  const input = parseInt(price, 10);
+  if (isNaN(input)) {
+    throw new Error(`Invalid input: "${price}" is not a number.`);
+  }
+  const total = PriceCalculator.getTotal(input);
   console.log(`Total including interest rate is "${total}".`);
   rl.close();
 });
