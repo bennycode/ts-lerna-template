@@ -15,7 +15,7 @@
   "scripts": {
     "clean": "lerna run clean --parallel",
     "dist": "lerna run dist",
-    "release": "npm run install && npm run dist && lerna publish && npm run clean",
+    "release": "npm install && npm run dist && lerna publish && npm run clean",
     "test": "lerna run --no-sort --concurrency 8 test"
   },
   "version": "2.0.0",
