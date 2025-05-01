@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@tstv/eslint-config": "^3.2.2",
+    "@tstv/eslint-config": "^4.0.0",
     "@tstv/tsconfig-common": "^3.6.0",
     "eslint": "^9.19.0",
     "lefthook": "^1.7.18",
