@@ -1,14 +1,14 @@
 {
   "devDependencies": {
     "@tstv/eslint-config": "^4.0.0",
-    "@tstv/tsconfig-common": "^3.6.0",
-    "eslint": "^9.19.0",
+    "@tstv/tsconfig-common": "^3.7.1",
+    "eslint": "^9.39.1",
     "lefthook": "^2.0.2",
     "lerna": "^9.0.0",
-    "prettier": "^3.3.3",
-    "rimraf": "^6.0.1",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.9.3"
   },
   "name": "ts-lerna-template",
   "private": true,
