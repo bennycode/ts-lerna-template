@@ -2,7 +2,7 @@
   "devDependencies": {
     "@tstv/eslint-config": "^4.0.0",
     "@tstv/tsconfig-common": "^3.7.1",
-    "eslint": "^9.39.1",
+    "eslint": "^10.0.2",
     "lefthook": "^2.0.2",
     "lerna": "^9.0.0",
     "prettier": "^3.6.2",
