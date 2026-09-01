@@ -4,7 +4,7 @@
     "@tstv/tsconfig-common": "^3.7.1",
     "eslint": "^10.0.2",
     "lefthook": "^2.0.2",
-    "lerna": "^9.0.0",
+    "lerna": "^10.0.1",
     "prettier": "^3.6.2",
     "rimraf": "^6.1.0",
     "ts-node": "^10.9.2",
